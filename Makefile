@@ -1,9 +1,3 @@
-
-export debug
-export env_name
-export profile
-
-project_name = $(shell basename $(pwd))
-export project_name
+project_name = $(shell basename $$(pwd))
 
 include roles/ansible-role.ansible-playbook/scripts/Makefile
