@@ -9,8 +9,8 @@
   "natNetAddrMask": "255.255.255.0",
   "nodeGroups": [
     { 
-      "nodeGroup": "appliance",
       "hostnameBase": "test",  
+      "nodeGroup": "appliance",
       "osFamily": "linux",
       "imageName": "centos/7",
       "imageVersion": "1905.1",
@@ -20,8 +20,8 @@
       "cpu": 4
     },
     { 
-      "nodeGroup": "provisioner",
       "hostnameBase": "test-provisioner",
+      "nodeGroup": "provisioner",
       "osFamily": "linux",
       "imageName": "centos/7",
       "imageVersion": "1905.1",

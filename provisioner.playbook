@@ -1,6 +1,6 @@
 ---
 
-- hosts: appliance
+- hosts: provisioner
   become: true
   vars_files:
     - vault/credentials.yml
@@ -8,6 +8,6 @@
     # Optional local configuration; default is to re-load vars
     - [ "target/environments/{{ env_name }}/main.yml", "vars/main.yml" ]
   roles:
-    - role: provide.appliance
+    - role: provide.provisioner
 
 
