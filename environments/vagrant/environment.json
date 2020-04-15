@@ -9,7 +9,7 @@
   "natNetAddrMask": "255.255.255.0",
   "nodeGroups": [
     { 
-      "hostnameBase": "test",  
+      "hostnameBase": "centos7-baseline",  
       "nodeGroup": "appliance",
       "osFamily": "linux",
       "imageName": "centos/7",
@@ -20,7 +20,7 @@
       "cpu": 4
     },
     { 
-      "hostnameBase": "test-provisioner",
+      "hostnameBase": "centos7-baseline-provisioner",
       "nodeGroup": "provisioner",
       "osFamily": "linux",
       "imageName": "centos/7",
