@@ -4,10 +4,10 @@
   "localLogin": "devops",
   "nodeGroups": [
     { 
-      "nodeGroup": "appliance",
+      "nodeGroup": "appliance"
     },
     { 
-      "nodeGroup": "provisioner",
+      "nodeGroup": "provisioner"
     }
   ]
 }
