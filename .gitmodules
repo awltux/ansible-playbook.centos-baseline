@@ -1,3 +1,9 @@
 [submodule "roles/ansible-role.ansible-playbook"]
 	path = roles/ansible-role.ansible-playbook
 	url = https://github.com/awltux/ansible-role.ansible-playbook.git
+[submodule "roles/ansible-role.centos-baseline"]
+	path = roles/ansible-role.centos-baseline
+	url = https://github.com/awltux/ansible-role.centos-baseline.git
+[submodule "roles/ansible-role.centos-hardening"]
+	path = roles/ansible-role.centos-hardening
+	url = https://github.com/awltux/ansible-hardening.git
