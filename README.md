@@ -1,4 +1,4 @@
-# ansible-playbook.centos7-baseline
+# ansible-playbook.centos8-baseline
 Creates a baseline image that is ready to run further ansible playbooks run against it.
 
 ## Features:
