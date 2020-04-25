@@ -14,17 +14,17 @@
       "images": [
         {
           "description": "Deliverable development",
-          "imageName": "centos7-baseline",
+          "imageName": "centos8-baseline",
           "imageVersion": "0"
         },
         {
           "description": "Deliverable release",
-          "imageName": "centos7-baseline",
+          "imageName": "centos8-baseline",
           "imageVersion": "1905.1.0"
         },
         {
           "description": "Public image",
-          "imageName": "centos/7",
+          "imageName": "centos/8",
           "imageVersion": "1905.1"
         }
       ],
@@ -39,27 +39,27 @@
       "images": [
         {
           "description": "Deliverable development",
-          "imageName": "centos7-baseline-provisioner",
+          "imageName": "centos8-baseline-provisioner",
           "imageVersion": "0"
         },
         {
           "description": "Deliverable released",
-          "imageName": "centos7-baseline-provisioner",
+          "imageName": "centos8-baseline-provisioner",
           "imageVersion": "1905.1.0"
         },
         {
           "description": "Intermediate development",
-          "imageName": "centos7-baseline",
+          "imageName": "centos8-baseline",
           "imageVersion": "0"
         },
         {
           "description": "Intermediate released",
-          "imageName": "centos7-baseline",
+          "imageName": "centos8-baseline",
           "imageVersion": "1905.1.0"
         },
         {
           "description": "Public image",
-          "imageName": "centos/7",
+          "imageName": "centos/8",
           "imageVersion": "1905.1"
         }
       ],
